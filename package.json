@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend del proyecto savia",
+  "homepage": "https://github.com/SergioFernan/SAVIA-BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/SergioFernan/SAVIA-BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioFernan/SAVIA-BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "Sergio Ivan Fernandez Galeano <sercolgi1@gmail.com>  ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
+  }
+}
